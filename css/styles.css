@@ -362,6 +362,18 @@ section h2 {
         text-decoration: none;
     }
 
+.btn.white {
+	background-color: #FCFCFC;
+	border-color: #C7C7C7;
+	color: #070707;
+}
+	
+	.btn.white:hover {
+		background-color: #F2F2F2;
+		border-color: #B1B1B1;
+		color: #070707;
+	}
+
 .btn.large {
 	padding: 10px 20px;
 	font-size: 18px;

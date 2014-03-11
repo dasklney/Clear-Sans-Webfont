@@ -1,0 +1,6 @@
+name:           Clear Sans Webfont
+description:    Webfont conversion of the Clear Sans typeface designed by Intel.
+
+permalink:      pretty
+pygments:       true
+exclude:        ["Makefile", "README.md", "less", "node_modules", "package.json"]

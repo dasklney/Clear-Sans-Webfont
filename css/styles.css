@@ -380,6 +380,10 @@ section h2 {
 	line-height: 24px;
 }
 
+#download p {
+    margin-bottom: 0.1rem;
+}
+
 .download-description {
     font-size: 80%;
     color: #6f6f6f;

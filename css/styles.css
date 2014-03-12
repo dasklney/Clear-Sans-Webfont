@@ -127,7 +127,7 @@ a:hover, a:focus {
 
 .inline {
     padding-left: 0;
-    margin-left: -5px;
+    margin-left: 0;
     list-style: none;
 }
 
@@ -378,6 +378,11 @@ section h2 {
 	padding: 10px 20px;
 	font-size: 18px;
 	line-height: 24px;
+}
+
+.download-description {
+    font-size: 80%;
+    color: #6f6f6f;
 }
 
 footer {

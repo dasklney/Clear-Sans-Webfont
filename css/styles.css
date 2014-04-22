@@ -226,7 +226,6 @@ header .container {
 }
 
 header h1 {
-    font-size: 4em;
     line-height: 1em;
     margin: 0 0 .5rem 0;
     text-align: center;
@@ -235,12 +234,11 @@ header h1 {
 header p {
     color: rgba(255,255,255,.75);
     display: block;
-    font-size: 1.2em;
     margin: 0;
     text-align: center;
 }
 
-@media only screen and (max-width:48rem) {
+@media only screen and (min-width:40rem) {
     header h1 {
         font-size: 3.2rem;
     }
@@ -250,22 +248,31 @@ header p {
     }
 }
 
-@media only screen and (max-width:40rem) {
+@media (min-width: 48rem) {
     header h1 {
-        font-size: 2.4rem;
+        font-size: 4em;
+    }
+
+    header p {
+        font-size: 1.2em;
     }
 }
 
 section h2 {
     margin: 0;
     text-align: center;
-    font-size: 2.4rem;
     line-height: 1.4;
 }
 
-@media only screen and (max-width:40rem) {
+@media only screen and (min-width:36rem) {
     section h2 {
         font-size: 2.0rem;
+    }
+}
+
+@media only screen and (min-width:40rem) {
+    section h2 {
+        font-size: 2.4rem;
     }
 }
 
@@ -296,16 +303,16 @@ section h2 {
     padding: .5rem;
     border: 1px solid #dddddd;
     line-height: 1;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 #about p {
     font-size: 1.1rem;
 }
 
-@media only screen and (max-width:40rem) {
+@media only screen and (min-width:40rem) {
     .samples p {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 }
 

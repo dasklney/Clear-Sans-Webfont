@@ -204,7 +204,8 @@ a:hover, a:focus {
 .divider {
     margin-bottom: 1.11111rem;
     max-width: 12rem;
-    border: 2px solid #dddddd;
+    border: 0;
+    border-top: 2px solid #dddddd;
 }
 
 header {
@@ -238,7 +239,7 @@ header p {
     text-align: center;
 }
 
-@media only screen and (min-width:40rem) {
+@media only screen and (min-width:36rem) {
     header h1 {
         font-size: 3.2rem;
     }
@@ -259,18 +260,13 @@ header p {
 }
 
 section h2 {
+    font-size: 2.0rem;
     margin: 0;
     text-align: center;
     line-height: 1.4;
 }
 
 @media only screen and (min-width:36rem) {
-    section h2 {
-        font-size: 2.0rem;
-    }
-}
-
-@media only screen and (min-width:40rem) {
     section h2 {
         font-size: 2.4rem;
     }
@@ -288,55 +284,51 @@ section h2 {
     font-weight: 300;
 }
 
-.content.borderless {
+.content-borderless {
     border: 0;
     border-radius: 0;
     padding: 0;
 }
 
 .samples {
-    margin: 0 1.1rem;
+    /*margin: 0 1.1rem;*/
 }
 
-.samples p {
+.samples .btn {
     margin: 1.1rem 0;
-    padding: .5rem;
-    border: 1px solid #dddddd;
-    line-height: 1;
-    font-size: 1.5rem;
 }
 
 #about p {
     font-size: 1.1rem;
 }
 
-@media only screen and (min-width:40rem) {
-    .samples p {
-        font-size: 2rem;
+@media (min-height: 36rem) {
+    .sample-lead {
+        font-size: 1.1rem;
     }
 }
 
-.thin {
+.sample-thin {
     font-weight: 100 !important;
 }
 
-.light {
+.sample-light {
     font-weight: 300 !important;
 }
 
-.regular {
+.sample-regular {
     font-weight: 400 !important;
 }
 
-.medium {
+.sample-medium {
     font-weight: 500 !important;
 }
 
-.bold {
+.sample-bold {
     font-weight: 700 !important;
 }
 
-.italic {
+.sample-italic {
     font-style: italic !important;
 }
 
@@ -362,26 +354,33 @@ section h2 {
     -o-transition: all .15s;
     transition: all .15s;
 }
-    .btn:hover {
-        background-color: #B3B3B3;
-        border-color: #919191;
-        color: #FFFFFF;
-        text-decoration: none;
-    }
+.btn:hover {
+    background-color: #B3B3B3;
+    border-color: #919191;
+    color: #FFFFFF;
+    text-decoration: none;
+}
 
-.btn.white {
+.btn-default {
     background-color: #FCFCFC;
     border-color: #C7C7C7;
     color: #070707;
 }
 
-    .btn.white:hover {
-        background-color: #F2F2F2;
-        border-color: #B1B1B1;
-        color: #070707;
-    }
+.btn-default:hover {
+    background-color: #F2F2F2;
+    border-color: #B1B1B1;
+    color: #070707;
+}
 
-.btn.large {
+.btn-block {
+    display: block;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.btn-lg {
     padding: 10px 20px;
     font-size: 18px;
     line-height: 24px;
@@ -394,6 +393,10 @@ section h2 {
 .download-description {
     font-size: 80%;
     color: #6f6f6f;
+}
+
+#specimen {
+    font-size: 1.1rem;
 }
 
 footer {

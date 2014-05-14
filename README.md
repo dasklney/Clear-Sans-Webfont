@@ -20,5 +20,5 @@ font-family: 'Clear Sans';
 
 ## License
 
-The Clear Sans typeface is released by under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html).
+The Clear Sans typeface is released under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html).
 This webfont conversion is released under the [MIT license](https://github.com/resir014/Clear-Sans-Webfont/blob/master/LICENSE).

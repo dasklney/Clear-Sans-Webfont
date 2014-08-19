@@ -2,5 +2,11 @@ name:           Clear Sans Webfont
 description:    Webfont conversion of the Clear Sans typeface designed by Intel.
 
 permalink:      pretty
-pygments:       true
+highlighter:    pygments
+url:            http://resir014.github.io/Clear-Sans-Webfont/
+baseurl:        /Clear-Sans-Webfont/
 exclude:        ["Makefile", "README.md", "less", "node_modules", "package.json"]
+author:
+  name:           Resi Respati
+  url:            http://resir014.github.io/
+  email:          resir014@gmail.com
